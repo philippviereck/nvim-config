@@ -1,5 +1,6 @@
 ![Screenshot 2024-01-10 at 15 31 04](https://github.com/philippviereck/nvim-config/assets/105976309/53534b77-3192-471d-a813-0e8149dc610e)
-
+> [!IMPORTANT]
+> I've only tested this on my Mac, I haven't had the chance to verify its compatibility on a fresh machine. Consequently, there might be missing prerequisites.
 
 # ⚡️ Requirements
 
@@ -14,11 +15,10 @@
   - [wezterm](https://github.com/wez/wezterm) **_(Linux, Macos & Windows)_**
   - [alacritty](https://github.com/alacritty/alacritty) **_(Linux, Macos & Windows)_**
   - [iterm2](https://iterm2.com/) **_(Macos)_**
+- NodeJS & npm (check out [Volta](https://volta.sh/))
+- (⚠️ maybe more !)
 
 # 🔨 Installation
-> [!IMPORTANT]
-> I've only tested this on my Mac, I haven't had the chance to verify its compatibility on a fresh machine. Consequently, there might be missing prerequisites such as Node.js, npm, and others.
-
 - Make a backup of your current Neovim files:
 ```sh
 # required
