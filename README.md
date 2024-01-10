@@ -17,7 +17,7 @@
 
 # 🔨 Installation
 > [!IMPORTANT]
-> only tested on my mac
+> I've only tested this on my Mac, I haven't had the chance to verify its compatibility on a fresh machine. Consequently, there might be missing prerequisites such as Node.js, npm, and others.
 
 - Make a backup of your current Neovim files:
 ```sh
