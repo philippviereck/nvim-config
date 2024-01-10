@@ -217,8 +217,8 @@ let g:coc_global_extensions = [
   \ 'coc-prettier',
   \ 'coc-lua',
   \ 'coc-eslint',
-  \ 'coc-snippets',
   \ 'coc-pairs']
    ]])
+    -- unsure wether to add coc-snippets ...
   end
 }

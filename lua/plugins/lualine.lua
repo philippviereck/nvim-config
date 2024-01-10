@@ -175,7 +175,7 @@ ins_left { 'progress', color = { fg = colors.fg, gui = 'bold' } }
 
 ins_left {
   'diagnostics',
-  sources = { 'nvim_diagnostic' },
+  sources = { 'nvim_diagnostic', 'coc' },
   symbols = { error = ' ', warn = ' ', info = ' ' },
   diagnostics_color = {
     color_error = { fg = colors.red },
@@ -192,7 +192,7 @@ ins_left {
   end,
 }
 
-ins_left {
+-- ins_left {
   -- Lsp server name .
   -- function()
   --   local msg = 'No Active Lsp'
@@ -215,13 +215,14 @@ ins_left {
   --      '%{coc#status()}',
   -- icon = ' ',
   -- color = { fg = colors.base1, gui = 'bold' },
-}
-ins_right {
-  -- Lsp server name .
-  '%{coc#status()}',
-  icon = '',
-  color = { fg = colors.base1, gui = 'bold' },
-}
+-- }
+    -- THIS added ugly emojis, so I removed it - not really nessesary anyway
+-- ins_right {
+--   -- Lsp server name .
+--   '%{coc#status()}',
+--   icon = '',
+--   color = { fg = colors.base1, gui = 'bold' },
+-- }
     
 -- Add components to right sections
 -- ins_right {
