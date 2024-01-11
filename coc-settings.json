@@ -10,6 +10,7 @@
     "html",
     "json"
   ],
+  "colors.enable": true,
   "diagnostic.virtualText": true,
   "diagnostic.virtualTextCurrentLineOnly": false
 }
